@@ -1,0 +1,14 @@
+#your main nation; this is for user-agent purposes
+main_nation = ""
+
+#if you want hécate to only target new nations, use true; if you want to hit *all* nations in a target region, false
+new_nations = true
+
+#same story; for only wa nations, use true, for all nations use false.
+#setting both to true will only target newly-joined wa nations
+wa_nations = true
+
+
+[targeting]
+#to add a region to the list, copy the following format into a new line
+#region1 = ["region_name_with_underscores", "api+key", "tgid", "secret_key"]
